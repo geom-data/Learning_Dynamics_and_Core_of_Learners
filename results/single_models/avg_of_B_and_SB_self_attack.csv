@@ -1,0 +1,12 @@
+,ResNet20v1_B,ResNet20v1_S-B,ResNet20v2_B,ResNet20v2_S-B,ResNet56v1_B,ResNet56v1_S-B,ResNet56v2_B,ResNet56v2_S-B
+cwl2_targeted_2nd_ResNet56v1,,,,,0.089299999,0.8671,,
+cwl2_targeted_ll_ResNet56v1,,,,,0.828250021,0.90259999,,
+cwl2_untargeted_ResNet56v1,,,,,0.088699996,0.5625,,
+pgd_targeted_ll_ResNet20v1,0.2012375,0.48685,,,,,,
+pgd_targeted_ll_ResNet20v2,,,0.199425001,0.588,,,,
+pgd_targeted_ll_ResNet56v1,,,,,0.223875001,0.533999994,,
+pgd_targeted_ll_ResNet56v2,,,,,,,0.207350001,0.595200002
+pgd_untargeted_ResNet20v1,0.7749,0.78381251,,,,,,
+pgd_untargeted_ResNet20v2,,,0.744749993,0.77685,,,,
+pgd_untargeted_ResNet56v1,,,,,0.778066675,0.794800003,,
+pgd_untargeted_ResNet56v2,,,,,,,0.748124987,0.782175004
