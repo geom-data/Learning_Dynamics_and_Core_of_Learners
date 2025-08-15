@@ -10,6 +10,8 @@ from tensorflow.keras.regularizers import l2
 from tensorflow.keras.models import Model
 import numpy as np
 import math
+# Modification happens at the verbosity level in train method.
+
 
 # Model parameter
 # ----------------------------------------------------------------------------
