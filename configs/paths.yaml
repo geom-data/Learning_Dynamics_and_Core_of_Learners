@@ -1,0 +1,10 @@
+data_root: "./data"
+results_root: "./results"
+
+cifar10_root: "./data/cifar10"
+tf_model_dir: "./data/models"
+SPs_model_dir: "./data/specialized_models"
+autoattack_out: "./data/adversarial_samples/autoattack_torch"
+apgd_out: "./data/adversarial_samples/art"
+
+cache_root: "./data/cache"

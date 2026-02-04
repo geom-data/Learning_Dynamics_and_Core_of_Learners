@@ -1,11 +1,16 @@
-# AdvLogifold
+# Supplementary Code (Anonymous)
 
-[How Adversarial Examples were Genetrated?](/markdowns/md2_generation.md)
+This zip contains four notebooks corresponding to the experimental pipeline.
 
-[Brief Note on Adversarial attack methods](/markdowns/md1_NoteOnAdversarial.md)
+## Notebooks
 
-[Experiment Notes(Initial)](/markdowns/md3_Experiment_note1.md)
+1. `01_torch_autoattack_robustbench.ipynb`
+   - Generate transfer-based AutoAttack adversarial examples using RobustBench pretrained models.
 
-[Experiment Notes(2024 October)](/markdowns/md3_Experiment_note2.md)
+2. `02_tf_train_resnet_vgg.ipynb`
+   - Train `.keras` models (ResNet/VGG) and save weights to `data/models/`.
 
-[Experiment Notes(2025 January)](/markdowns/md3_Experiment_note3.md)
+3. `03_tf_art_apgd_samples.ipynb`
+   - Generate APGD samples using ART in TF2 against $\mathcal{U}^{(0)}$ baseline ensembles of four ResNet and four VGG models, and $\mathcal{U}^{(1)}$ the first immunized generation, and save to `data/adversarial_samples/art/`.
+
+4. `04_main_experiment.ipynb`
