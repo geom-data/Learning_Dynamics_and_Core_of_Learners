@@ -1,43 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pyc
-
-# Virtual environments
-venv/
-env/
-ENV/
-*.env
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
 # macOS
 .DS_Store
 
-# Logs
-*.log
+# large files
 
-# VS Code
-.vscode/
-
-# Build
-build/
-dist/
-*.egg-info/
-
-# Node
-node_modules/
-
-# Test coverage
-.coverage
-htmlcov/
-
-# Others
-*.sqlite3
-*.db
-*.bak
-*.swp
-*.swo
+data/specialized_models/
+data/adversarial_samples/
+data/models/

@@ -1,0 +1,10 @@
+tensorflow==2.11.0
+
+numpy
+scipy
+pandas
+matplotlib
+pyyaml
+scikit-learn
+
+adversarial-robustness-toolbox

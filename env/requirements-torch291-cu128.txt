@@ -1,0 +1,15 @@
+torch==2.9.1+cu128
+torchvision==0.24.1+cu128
+
+robustbench
+autoattack
+foolbox
+
+numpy
+scipy
+scikit-learn
+matplotlib
+
+requests
+pyyaml
+pandas
