@@ -14,6 +14,12 @@ import numpy as np
 import math
 from sklearn.model_selection import train_test_split 
 
+
+'''
+VGG layer configuration follows the canonical VGG-11/13/16/19 specification (same layout as torchvision VGG configs).
+Training utilities (LR schedule / augmentation recipe) are adapted from the Keras CIFAR-10 ResNet example.
+
+'''
 config = {
     'vgg11': [64, 'M', 128, 'M', 256, 256, 'M', 512, 512, 'M', 512, 512, 'M'],
     'vgg13': [64, 64, 'M', 128, 128, 'M', 256, 256, 'M', 512, 512, 'M', 512, 512, 'M'],

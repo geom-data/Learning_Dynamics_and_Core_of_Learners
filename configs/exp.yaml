@@ -1,17 +1,1 @@
 seed: 42
-
-# AutoAttack (Notebook 01)
-autoattack:
-  norm: "L2"
-  eps: 0.5
-  batch_size: 524
-  robustbench_model: "Standard"
-  robustbench_threat_model: "L2"
-
-# ART APGD (Notebook 03)
-art_apgd:
-  norm: 2
-  eps: 0.5
-  eps_step: 0.2
-  max_iter: 2
-  nb_random_init: 4
