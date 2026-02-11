@@ -2,7 +2,7 @@
 .DS_Store
 .pyc
 .cpython-310
-
+.gitignore
 
 # large files
 
@@ -11,3 +11,4 @@ data/adversarial_samples/
 data/models/
 data/cache/
 source/__pycache__/
+source/__pycache__
