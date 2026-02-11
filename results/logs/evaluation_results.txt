@@ -1,0 +1,113 @@
+New Experiment started
+experimental description:
+
+Baseline : Res + VGG
+first layer : Res
+Second layer : Res
+union : clean + weak + strong
+
+----------------------------------------
+Sample name : U0_union_test (size : 30000), out_of_core_th : 0.66
+First layer acc : 0.6434333333333333
+Baseline acc : 0.5806
+Second layer acc : 0.6763333333333333
+All members ensemble acc : 0.7457333333333334
+Entropy threshold for first layer : 0.66
+First layer core acc : 0.9517758631376682 (size : 16133)
+First layer OutCore acc : 0.2847046945986875 (size : 13867)
+First layer core entropy : 1346.7836591643354
+First layer entropy : 28914.539997557025
+First layer OutCore entropy : 27567.756338392694
+First layer core coverage : 0.5377666666666666
+Second layer acc on OutCore from first layer  : 0.7873368428643542 (size : 13867)
+Second layer core acc on OutCore from first layer : 0.8971540121237028 (size : 9733)
+Second layer core entropy on OutCore from first layer : 1352.6999402865927
+Second layer entropy on OutCore from first layer : 5604.438033715101
+out core of second layer count : 4134
+Second layer OutCore entropy on OutCore from first layer : 4251.738093428508
+Second layer core coverage on OutCore from first layer : 0.7018821662940795
+Gated ensemble acc : 0.8757666666666667
+total entropy = first layer core ent + second layer ent on OutCore from first layer
+1346.7836591643354 + 5604.438033715101 = 6951.221692879436
+total core entropy (first layer) + core entropy (second layer) : 2699.483599450928
+maximum acc among baseline, first layer, second layer : 0.6763333333333333
+difference between gated ensemble and maximum acc : 0.19943333333333335
+----------------------------------------
+Sample name : U0_APGD_weak_test (size : 10000), out_of_core_th : 0.96
+First layer acc : 0.7732
+Baseline acc : 0.6669
+Second layer acc : 0.7567
+All members ensemble acc : 0.8137
+Entropy threshold for first layer : 0.96
+First layer core acc : 0.9544842042221889 (size : 6679)
+First layer OutCore acc : 0.40861186389641674 (size : 3321)
+First layer core entropy : 596.2731083620049
+First layer entropy : 6408.0204229307055
+First layer OutCore entropy : 5811.747314568701
+First layer core coverage : 0.6679
+Second layer acc on OutCore from first layer  : 0.6648599819331527 (size : 3321)
+Second layer core acc on OutCore from first layer : 0.7297297297297297 (size : 2516)
+Second layer core entropy on OutCore from first layer : 1345.4098549265336
+Second layer entropy on OutCore from first layer : 2250.3445403672977
+out core of second layer count : 805
+Second layer OutCore entropy on OutCore from first layer : 904.9346854407638
+Second layer core coverage on OutCore from first layer : 0.7576031315868714
+Gated ensemble acc : 0.8583
+total entropy = first layer core ent + second layer ent on OutCore from first layer
+596.2731083620049 + 2250.3445403672977 = 2846.6176487293023
+total core entropy (first layer) + core entropy (second layer) : 1941.6829632885385
+maximum acc among baseline, first layer, second layer : 0.7732
+difference between gated ensemble and maximum acc : 0.08509999999999995
+
+AutoAttack result
+AA Sample name : AA_std_test (size : 10000), out_of_core_th : 0.96
+First layer acc : 0.8471
+Baseline acc : 0.7847
+Second layer acc : 0.7595
+All members ensemble acc : 0.8382
+Entropy threshold for first layer : 0.96
+First layer core acc : 0.9240383054698913 (size : 6161)
+Second layer acc on OutCore from first layer  : 0.6715290440218807 (size : 3839)
+Second layer core acc on OutCore from first layer : 0.6953405017921147 (size : 2511)
+Gated ensemble  acc : 0.8271
+----------------------------------------
+Sample name : U0_APGD_strong_test (size : 10000), out_of_core_th : 0.02
+First layer acc : 0.2148
+Baseline acc : 0.1316
+Second layer acc : 0.8554
+All members ensemble acc : 0.453
+Entropy threshold for first layer : 0.02
+First layer core acc : 0.9718162839248434 (size : 958)
+First layer OutCore acc : 0.13459411634594115 (size : 9042)
+First layer core entropy : 0.7299228570238538
+First layer entropy : 19782.412879525626
+First layer OutCore entropy : 19781.6829566686
+First layer core coverage : 0.0958
+Second layer acc on OutCore from first layer  : 0.9021234240212342 (size : 9042)
+Second layer core acc on OutCore from first layer : 0.9690444145356663 (size : 3715)
+Second layer core entropy on OutCore from first layer : 15.872277994381948
+Second layer entropy on OutCore from first layer : 2003.1996091847896
+out core of second layer count : 5327
+Second layer OutCore entropy on OutCore from first layer : 1987.327331190408
+Second layer core coverage on OutCore from first layer : 0.41086042910860426
+Gated ensemble acc : 0.9088
+total entropy = first layer core ent + second layer ent on OutCore from first layer
+0.7299228570238538 + 2003.1996091847896 = 2003.9295320418134
+total core entropy (first layer) + core entropy (second layer) : 16.6022008514058
+maximum acc among baseline, first layer, second layer : 0.8554
+difference between gated ensemble and maximum acc : 0.0534
+
+AutoAttack result
+AA Sample name : AA_std_test (size : 10000), out_of_core_th : 0.02
+First layer acc : 0.8471
+Baseline acc : 0.7847
+Second layer acc : 0.7368
+All members ensemble acc : 0.8883
+Entropy threshold for first layer : 0.02
+First layer core acc : 0.9969207082371054 (size : 1299)
+Second layer acc on OutCore from first layer  : 0.7165843006550972 (size : 8701)
+Second layer core acc on OutCore from first layer : 0.9144237405106971 (size : 1449)
+Gated ensemble  acc : 0.753
+First layer entropy : 7530.30075454026
+First layer core entropy : 6.441383501722813
+Total entropy = first layer core entropy + 2nd layer ent on outcore : 6.441383501722813 + 3574.75434777344

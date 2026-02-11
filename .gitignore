@@ -1,8 +1,13 @@
 # macOS
 .DS_Store
+.pyc
+.cpython-310
+
 
 # large files
 
 data/specialized_models/
 data/adversarial_samples/
 data/models/
+data/cache/
+source/__pycache__/
